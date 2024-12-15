@@ -1,0 +1,276 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 16, 2023, 8:43:33 PM
+    Author     : User
+*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body {
+    min-height: 1000px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+    transition: all .4s;
+}
+
+.navbarSupportedContent ul li a:hover:after {
+    width: 100%;
+}
+
+a.nav-link {
+    color:white;
+    font-weight: bold;
+    position: relative;
+}
+
+a.nav-link:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+}
+
+a.nav-link:hover {
+    color:#aaa;
+}
+
+a.nav-link:hover:after {
+    width: 100%;
+}
+
+.dropdown:hover  .dropdown-menu {
+    display: block;
+}
+
+input.search:hover {
+    background-color: rgba(192, 188, 188, 0.979);
+}
+
+button.search {
+    background-color: black;
+    border-color: white;
+    margin-left: -2px ;
+}
+
+button.search:hover {
+    background-color: white;
+    border-color: black;
+
+}
+
+i.fa-search {
+    color: white !important;
+}
+
+i.fa-search:hover {
+    color: black !important;
+}
+/* End of Navigation Bar */
+
+/*Sidebar*/
+#sidebar {
+    background:black;
+}
+
+.offcanvas-header, .sidenav-content{
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.sidenav-subcontent {   
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+}
+
+a.sidenav-link, a.sidenav-sublink {
+    text-decoration: none;
+}
+
+li.sidenav-item:hover{
+    background-color:grey;
+    border-radius:20px;
+}
+
+li.sidenav-subitem:hover span.sidenav-subcontent{
+    color:black;
+}
+
+/*End of Sidebar*/
+
+/* Banner */
+.banner {
+    background: grey;
+    background-image: url("../../src/img/cover.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 700px 700px;
+    height: 500px;
+}
+
+.banner-content {
+    padding-top: 200px;
+    padding-left: 80px;
+}
+
+.banner-content p, .banner-content a {
+    font-size: 20px;
+}
+
+.banner-content h1 {
+    font-size: 50px;
+}
+
+.banner-content h1, .banner-content p, .banner-content a{
+    color:white;
+    font-family: 'Oswald', sans-serif;
+}
+/* End of Banner */
+
+/* New Arrivals */
+h1.arrivals-header  {
+    font-family: 'Oswald', sans-serif;
+}
+/* End of New Arrivals */
+
+/* Why Choose Us */
+h1.choose-header  {
+    font-family: 'Oswald', sans-serif;
+}
+/* Why Choose Us */
+
+/*Image & Gallery*/
+#img-section {
+    margin-bottom:40px;
+}
+
+h1.img-header  {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+}
+
+img.poster {
+    max-width: 100%;
+    max-height:100%;
+}
+
+div.sec-prev {
+    z-index: 4;
+}
+
+div.prev {
+    z-index: 5;
+}
+
+div.selected {
+    z-index: 10;
+}
+
+div.next {
+    z-index: 5;
+}
+
+div.sec-next {
+    z-index: 4;
+}
+
+img.poster1 {
+    height:600px;
+}
+
+img.poster4 {
+    height:670px;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+i.fa-chevron-left {
+    color: black;
+    font-size: 30px;
+    padding:5px 10px;
+    margin-left:20px;
+    border: 4px solid black;
+    border-radius: 100%;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+i.fa-chevron-right {
+    color: black;
+    font-size: 30px;
+    padding:5px 10px;
+    margin-right:20px;
+    border: 4px solid black;
+    border-radius: 100%;
+}
+/*End of Image & Gallery*/
+
+/* Blog Posts */
+#blog-section {
+    background: #f5f5f5;
+}
+
+h1.blog-header  {
+    font-family: 'Oswald', sans-serif;
+}
+/* Blog Posts */
+
+/* Footer */
+footer {
+    background: black;
+}
+
+h4.footer-header {
+    color:white;
+    font-weight: bold;
+}
+
+a.footer-content {
+    color:white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+a.footer-content:hover {
+    text-decoration: underline;
+}
+
+i.fa-instagram:hover {
+    color: #c7659b !important;
+}
+
+i.fa-facebook:hover {
+    color:#3B5998 !important;
+}
+
+i.fa-twitter:hover {
+    color:#26A7DE !important;
+}
+/* End of Footer */
+
+

@@ -1,0 +1,255 @@
+/* Navigation Bar */
+div.container-fluid {
+    background-color: black;
+}
+
+a.nav-link {
+    color:white;
+    font-weight: bold;
+}
+
+a.nav-link:hover {
+    color:grey;
+}
+
+input.search:hover {
+    background-color: rgba(192, 188, 188, 0.979);
+}
+
+button.search {
+    background-color: black;
+    border-color: white;
+    margin-left: -2px ;
+}
+
+button.search:hover {
+    background-color: white;
+    border-color: black;
+}
+
+i.fa-search {
+    color: white !important;
+}
+
+i.fa-search:hover {
+    color: black !important;
+}
+/* End of Navigation Bar */
+
+.icon-hover:hover {
+    border-color: #3b71ca !important;
+    background-color: white !important;
+}
+
+.icon-hover:hover i {
+    color: #3b71ca !important;
+}
+
+.btn.btn-primary.shadow-0.me-1 {
+    background-color: white !important;
+    color: black;
+    border-color: #212529;
+}
+
+.btn.btn-primary.shadow-0.me-1:hover, #applybtn:hover {
+    background-color: #212529 !important;
+    color: white;
+}
+
+.active>.page-link, .page-link.active {
+    background-color: #3e3e3e;
+    border-color: #3e3e3e;
+}
+
+/* Item Form and table style */
+.form-additem, .form-updateitem, .form-deleteitem, .itemTable, .buttondiv, .popupItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#popupAdd, #popupSuccessAdd, #popupUpdate, #popupSuccessUpdate, #popupDelete, #popupSuccessDelete, #popupItem {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.3);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.1s;
+}
+
+#popupAdd.active, #popupSuccessAdd.active, #popupUpdate.active, #popupSuccessUpdate.active, #popupDelete.active, #popupSuccessDelete.active, #popupItem.active {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.1s;
+}
+
+#popupItem   {
+    width: 80% !important;
+    height: 60% !important;
+}
+
+#pName {
+    position: fixed;
+    left: 450px;
+    top: 30px;
+}
+
+#pPrice {
+    position: fixed;
+    left: 450px;
+    top: 100px;
+}
+
+#pStock {
+    position: fixed;
+    left: 450px;
+    top: 180px;
+}
+
+#pDesc {
+    position: fixed;
+    left: 450px;
+    top: 250px;
+}
+
+#pImage {
+    position: fixed;
+    left: 30px;
+    top: 30px;
+}
+
+#closebtn {
+    position: fixed;
+    left: 1470px;
+    top: 20px;
+    background-color: red;
+    border-radius: 1000px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    width: 30px;
+    height: 30px;
+}
+
+#blur.active {
+    filter: blur(10px);
+    pointer-events: none;
+    user-select: none;
+}
+
+table, th, td, tr {
+    text-align: center;
+    border: none;
+    border-collapse: unset;
+}
+
+.additembtn {
+    position: relative;
+    padding: 10px 0;
+    margin: 20px;
+    width: 9%;
+    background-color: #6fd649;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+.btn-u {
+    width: 80%;
+    background-color: #9090ff;
+}
+
+.btn-d {
+    width: 80%;
+    background-color: #ff6565;
+}
+
+.refreshbtn {
+    position: relative;
+    padding: 10px 0;
+    margin: 20px;
+    width: 9%;
+    background-color: yellow;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+}
+
+#min {
+    text-align: left;
+}
+
+#errId, #errFieldsAdd, #errFieldsUpdate {
+    visibility: hidden;
+    color: red;
+}
+
+#errId.active, #errFieldsAdd.active, #errFieldsUpdate.active {
+    visibility: visible;
+}
+/* Item Form and table style */
+
+/* image styles */
+.card-img-top:hover {
+    cursor: pointer;
+}
+/* image styles */
+
+/* Report css */
+.itemReport {
+    display:none;
+}
+
+.itemReport.active {
+    display: flex;
+    margin-top: 50px;
+}
+
+
+#showReportbtn {
+    margin-top: 50px;
+    height: 50px;
+    background-color: #f5c5ff;
+}
+
+/* Footer */
+footer {
+    background: black;
+}
+
+h4.footer-header {
+    color:white;
+    font-weight: bold;
+}
+
+a.footer-content {
+    color:white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+a.footer-content:hover {
+    color:grey;
+    font-size: 20px;
+}
+
+i.fa-instagram:hover {
+    color: #c7659b !important;
+}
+
+i.fa-facebook:hover {
+    color:#3B5998 !important;
+}
+
+i.fa-twitter:hover {
+    color:#26A7DE !important;
+}
+/* End of Footer */
+
